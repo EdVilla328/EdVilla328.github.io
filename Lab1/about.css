@@ -28,10 +28,9 @@ body {
       text-decoration:none;
       color:white; background:lightgray; 
       border:1px solid black; 
-      border-radius:4px; 
-      font-weight:600;
+      border-radius:4px;  
     }
-    .nav a:hover, nav a:focus { 
+    .nav a:hover, .nav a:focus { 
         background:gray; 
         color:white; 
     }
@@ -41,7 +40,8 @@ body {
     }
 
     main { 
-        padding:36px 24px;
+        margin: 0 auto;
+        padding: 24px;
      }
 
 
@@ -59,7 +59,7 @@ th, td {
 thead th { 
     background:lightyellow; 
     color:black; 
-    font-weight:700; 
+    font-weight:bold; 
 }
 
 ul {
