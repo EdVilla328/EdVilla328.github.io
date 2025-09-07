@@ -4,6 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1, initial-scale=1.0">
     <title>Lab 1: Team Website</title>
+    <style>
+     body { 
+        margin:0; 
+        font-family: Arial, sans-serif; 
+        background:navy; color:white; 
+    }
+
+    h1 {
+      margin:0; 
+      padding:20px 12px;
+       background:black; color:white; 
+      text-align:center;
+      font-family:'Pacifico', cursive; 
+      font-size:max(2vw, 6vw);
+      border-bottom:12px solid goldenrod;
+    }
+
+    nav { 
+        text-align:center; 
+        background:goldenrod; 
+        padding:10px 0 18px; margin:0; 
+        border-bottom:1px solid black; 
+    }
+    nav a {
+      display:inline-block; 
+      margin:0 8px; 
+      padding:6px 14px; 
+      text-decoration:none;
+      color:white; background:lightgray; 
+      border:1px solid black; 
+      border-radius:4px;
+      box-shadow:0 2px 0 black; 
+      font-weight:600;
+    }
+    nav a:hover, nav a:focus { 
+        background:gray; 
+        color:white; 
+    }
+    nav a.active { 
+        background:gray; 
+        outline:3px solid black; 
+    }
+
+    main { 
+        padding:36px 24px;
+        text-align: center;
+     }
+
+    footer {
+      background:black; color:red; 
+      font-size:small; 
+      text-align:center;
+      padding:18px 12px 26px; 
+      border-top:1px solid black;
+    }
+    footer img {
+         display:block; 
+        margin:8px auto 10px;
+     }
+
+    #team-row {
+      display:flex; 
+      justify-content:space-evenly; 
+      flex-wrap:nowrap; 
+      margin:20px 0;
+    }
+    figure {
+      text-align:center; 
+      border:3px solid gold; 
+      border-radius:15px; 
+      padding:10px; 
+      margin:10px;
+      width:200px; height:300px; 
+      display:flex; 
+      flex-direction:column; 
+      justify-content:space-between; color:white;
+    }
+    figure img {
+      border-radius:10px; 
+      width:100%; 
+      height:80%;
+       object-fit:cover;
+    }
+    figcaption { 
+        margin-top:8px; 
+        font-weight:bold; 
+        color:white; 
+    }
+    p { 
+        max-width:860px; 
+        margin:0 auto 12px; 
+    }
+    </style>
+
 </head>
 <body>
     
@@ -16,33 +110,37 @@
     <a href="contact.html">Contact </a>
 </nav>
 <main>
+    <div id="team-row">
     <figure>
-        <img src="img/BenGrimm.jpg" width="300" height="170">
-        <figcaption>Ben Grimm</figcaption>
+        <img src="img/Alexander.jpg" width="300" height="170">
+        <figcaption>Alexander Trujillo</figcaption>
     </figure>
     <figure>
-        <img src="img/JonnyStorm.jpg" width="300" height="170">
-        <figcaption>Johnny Storm</figcaption>
+        <img src="img/eduardo.jpeg" width="300" height="170">
+        <figcaption>Eduardo Villagrana</figcaption>
     </figure>
     <figure>
-        <img src="img/ReedRichards.jpg" width="300" height="170">
-        <figcaption>Reed Richards</figcaption>
+        <img src="img/lesly.jpg" width="300" height="170">
+        <figcaption>Lesly Villanueva</figcaption>
     </figure>
     <figure>
-        <img src="img/SueStorm.jpg" width="300" height="170">
-        <figcaption>Sue Storm</figcaption>
+        <img src="img/sungmin.jpg" width="300" height="170">
+        <figcaption>Sungmin Park</figcaption>
     </figure>
-</main>
-<br>
+    </div>
+
 <p> Hello! Welcome to our Home page! Feel free to check us out! We are all students from CSUMB.</p>
 <br>
 <p> " I think, therefore, I am "</p>
 <p> -René Descartes</p>
+</main>
+
 <hr>
 <footer>
     <img src= "img/Csumb.png" width= 300> <br> CST336 Internet Programming. 2025 Villagrana, Park, Villanueva, Trujillo <br>
     <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br>
     It is used for academic purposes only.
+</footer>
 
 </body>
 </html>
