@@ -28,8 +28,7 @@ body {
       text-decoration:none;
       color:white; background:lightgray; 
       border:1px solid black; 
-      border-radius:4px;
-      box-shadow:0 2px 0 black; 
+      border-radius:4px; 
       font-weight:600;
     }
     .nav a:hover, nav a:focus { 
@@ -41,7 +40,8 @@ body {
         outline:3px solid black; 
     }
 
-    main { padding:36px 24px;
+    main { 
+        padding:36px 24px;
      }
 
 

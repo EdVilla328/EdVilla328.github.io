@@ -12,7 +12,7 @@ h1 {
   text-align:center;
   font-family:'Pacifico', cursive; 
   font-size:max(2vw, 6vw);
-  border-bottom:12px solid orange;
+  border-bottom:12px solid goldenrod;
 }
 
 .nav { 
@@ -30,8 +30,7 @@ h1 {
   color:white; 
   background:lightgray; 
   border:1px solid black; 
-  border-radius:4px;
-  box-shadow:0 2px 0 black; 
+  border-radius:4px; 
   font-weight:600;
 }
 .nav a:hover, .nav a:focus { 
@@ -47,22 +46,21 @@ main {
     max-width:900px; 
     margin:0 auto; 
     padding:36px 24px; 
+    text-align:center;
 }
 h2 { 
     margin-top:0; 
 }
-
-.contact-list { 
-    padding-left:1.2rem; 
+main iframe{
+    border-radius:6px;
+    border: 2px solid gold;
+    background:white;
 }
-.contact-list li + li {
-     margin-top:8px;
-     }
 
 footer {
   background:black; 
   color:red; 
-  font-size:.85rem; 
+  font-size:small; 
   text-align:center;
   padding:18px 12px 26px; 
   border-top:1px solid black;
