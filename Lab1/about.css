@@ -1,18 +1,19 @@
-body { 
-    margin:0; 
-    font-family: Arial, sans-serif; 
-     background:navy; color:white; 
-    }
-
-    h1 {
-      margin:0; 
-      padding:20px 12px; 
-      background:black; color:white; 
-      text-align:center;
-      font-family:'Pacifico', cursive; 
-      font-size:max(2vw, 6vw);
-      border-bottom:12px solid goldenrod;
-    }
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:navy;
+    color:white;
+}
+h1{
+    margin:0;
+    padding:18px 10px;
+    background:black;
+    text-align:center;
+    color:white;
+    border-bottom:11px solid goldenrod;
+    font-size:max(2vw, 6vw);
+    font-family:'Pacifico', cursive;
+}
 
     .nav { 
         text-align:center; 
