@@ -3,9 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HW-1</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background: black; color:white;
+        }
+
+        h1{
+            margin:0;
+            padding:20px 12px;
+            background:black; color:white;
+            text-align:center;
+            font-family:'Pacifico', cursive;
+            font-size:max(2vw, 6vw);
+            border-bottom:10px solid goldenrod;
+        }
+
+        nav{
+            text-align:center;
+            background:goldenrod;
+            padding:10px 0 18px;
+            margin:0;
+            border-bottom:2px solid black;
+        }
+
+        nav a{
+            display: inline-block;
+            margin:0 8px;
+            padding: 6px 14px;
+            text-decoration:none;
+            color:white; background:black;
+            border: 1px solid gold;
+            font-weight:600;
+        }
+
+        nav a:hover, nav a:focus{
+            background:gray;
+            color:white;
+        }
+
+        nav a.active{
+            background:gray;
+            outline: 3px solid black;
+        }
+
+        main{
+            padding:36px 24px;
+            text-align:center;
+        }
+        #foundations-row{
+            display:flex;
+            justify-content:center;
+            gap:36px;
+            overflow-x:auto;
+            flex-wrap:wrap;
+            margin:20px 0;
+        }
+
+        figure{
+            flex: 0 0 300px;
+            width:420px;
+            text-align:center;
+            border:3px solid black;
+            border-radius:15px;
+            padding:10px;
+            margin:0px; 
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+            color:white;
+        }
+
+        figure img{
+            aspect-ratio:16/9;
+            border-radius:10px;
+            width:100%;
+            height:auto;
+            object-fit:contain;
+            display:block;
+            object-position:center;
+
+        }
+        figcaption{
+            margin-top:8px;
+            font-weight:normal;
+            color:white;
+        }
+        p{
+            max-width:860px;
+            margin: 0 auto 12px;
+        }
+        footer {
+              background:black; 
+              color:red; 
+              font-size:small; 
+              text-align:center;
+              padding:18px 12px 26px; 
+              border-top:1px solid black;
+            }
+            footer img { 
+                 display:block; 
+                  margin:8px auto 10px; 
+                }
+    </style>
 </head>
 <body>
+    <Header>
+        <h1>CS Foundations:OS•Languages•Viruses</h1>
+    </Header>
+    
+    <nav>
+        <a href = "index.html" class="active">Home</a>
+        <a href = "operating-systems.html">Operating Systems</a>
+        <a href = "programming-languages.html">Programming Languages</a>
+        <a href = "virus.html"> Viruses</a>
+    </nav>
+    <main>
+        <div id="foundations-row">
+        <figure>
+            <img src ="img/Operating-Systems.jpg" >
+            <figcaption> Operating Systems</figcaption>
+        </figure>
+        <figure>
+            <img src ="img/programming-languages.png">
+            <figcaption> Programming Languages</figcaption>
+        </figure>
+        <figure>
+            <img src ="img/Virus.png">
+            <figcaption> Viruses</figcaption>
+        </figure>
+        </div>
+
+        <p>
+            In this webpage, we will be discussing some the major foundations of computer science. The three main topic we wiil be foucsing on are Operating Systems, Programming Languages, and Viruses. I will be sharing how they work,what they are used for, and the types.
+        </p>
+        <br>
+        <hr>
+
+        <footer>
+            <p>
+                <img src="img/Csumb.png" width="300" alt="CSUMB logo">
+            </p>
+            <p> CST336 Internet Programming. 2025© Villagrana</p>
+            <p><strong>Disclaimer:</strong>The information in this webpage is taken from mutiple online sources.<br> It is used for academic purposes only.</p>
+            
+
+        </footer> 
+
+
+
+
+    </main>
     
 </body>
 </html>
