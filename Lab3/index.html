@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab3</title>
+</head>
+<body>
+  <h1>Country Captials</h1>
+  <p>Each question is worth 20 points.</p>
+
+  <form id="quiz">
+    
+    <div class="card" id="q1">
+      <div><b>1) What is the Captial of Mexico?</b></div>
+      <label><input type="radio" name="q1" value="Mexico City"> Mexico City</label><br>
+      <label><input type="radio" name="q1" value="Ottawa"> Ottawa</label><br>
+      <label><input type="radio" name="q1" value="New Delhi"> New Delhi</label>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="card" id="q2">
+      <div><b>2) What is the Capital of the Korea?</b></div>
+      <input type="text" name="q2" placeholder="type your answer">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="card" id="q3">
+      <div><b>3) What is the Capital of the USA?</b></div>
+      <select name="q3">
+        <option value="">-- Select one --</option>
+        <option value="San Francisco">San Francisco</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Boston">Boston</option>
+        <option value="Washington DC">Washington DC</option>
+      </select>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="card" id="q4">
+      <div><b>4) How many letters does the Calpital of Canada have?</b></div>
+      <input type="number" name="q4" min="1" max="10" step="1" placeholder="enter a number">
+      <div class="feedback"></div>
+    </div>
+
+    
+    <div class="card" id="q5">
+      <div><b>5) What is not a Capital of a Country? </b></div>
+      <label><input type="checkbox" name="q5" value="Mexico City"> Paris</label><br>
+      <label><input type="checkbox" name="q5" value="Noumea"> Noumea</label><br>
+      <label><input type="checkbox" name="q5" value="Versaille"> Versaille</label><br>
+      <label><input type="checkbox" name="q5" value="Paris"> Lyon</label><br>
+      <label><input type="checkbox" name="q5" value="Washington"> Rennes</label>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="btns">
+      <button type="submit">Submit Quiz</button>
+      <button type="reset">Reset</button>
+    </div>
+
+    <div id="scoreBox"></div>
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Quiz</title>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+</head>
+<body>
+
+
+    <h1>CSS Quiz</h1>
+    1. What CSS property changes the text color? <br>
+
+    <label>
+        <input type = "radio" name = "q1" value="Text-Color"> Text-Color
+    </label>
+
+    <label>
+        <input type = "radio" name = "q1" value="Font-Color"> Font-Color
+    </label>
+
+    <label>
+        <input type = "radio" name = "q1" value="color"> color
+    </label>
+
+    <br>
+
+
+    2. What CSS property changes the text color? <br>
+
+    <label>
+        <input type = "checkbox" id = "q2a" value="Text-Color"> Text-Color
+    </label>
+
+    <label>
+        <input type = "checkbox" id = "q2b" value="Font-Color"> Font-Color
+    </label>
+
+    <label>
+        <input type = "checkbox" id = "q2c" value="color"> color
+    </label>
+
+
+
+    3. What CSS property changes the text color? <br>
+    
+    <div id = "q3Options"></div>
+
+    <br>
+
+
+    <button> Submit Quiz</button>
+
+    <script src = "js/script.js"></script>
+
+    
+</body>
+</html>
+
+ -->

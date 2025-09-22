@@ -1,0 +1,56 @@
+html, body{
+    height: 100%
+}
+
+body{
+    margin:0;
+    background-image:url("../img/numbers.jpg");
+    background-size:cover;
+    background-position: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 18px;
+    color:brown;
+   
+}
+
+header,
+#main{
+    background-color: white;
+    max-width: 720px;
+    margin: 16px auto;
+    padding: 16px 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#feedback{
+    margin-top: 0 0 12px;
+    text-align: center;
+}
+
+#guesses{
+    display: block;
+    margin-top: 4px;
+    color:blue;
+}
+
+#playerGuess{
+width: 60px;
+color:purple;
+}
+
+#wins{
+    color:green;
+}
+
+#losses{
+    color:orangered;
+}
+
+#attemptsLeft{
+    color:black;
+}
+
+
