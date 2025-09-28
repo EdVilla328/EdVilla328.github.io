@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lab3</title>
 </head>
@@ -45,21 +46,22 @@
 
     
     <div class="card" id="q5">
-      <div><b>5) What is not a Capital of a Country? </b></div>
-      <label><input type="checkbox" name="q5" value="Mexico City"> Paris</label><br>
+      <div><b>5) Which is not a Capital of a Country? </b></div>
+      <label><input type="checkbox" name="q5" value="Mexico City"> Mexio City</label><br>
       <label><input type="checkbox" name="q5" value="Noumea"> Noumea</label><br>
-      <label><input type="checkbox" name="q5" value="Versaille"> Versaille</label><br>
-      <label><input type="checkbox" name="q5" value="Paris"> Lyon</label><br>
-      <label><input type="checkbox" name="q5" value="Washington"> Rennes</label>
+      <label><input type="checkbox" name="q5" value="Versailles"> Versailles</label><br>
+      <label><input type="checkbox" name="q5" value="Paris"> Paris</label><br>
+      <label><input type="checkbox" name="q5" value="Washington"> Washington</label>
       <div class="feedback"></div>
     </div>
 
     <div class="btns">
-      <button type="submit">Submit Quiz</button>
+      <button type="button" id="submitQuiz">Submit Quiz</button>
       <button type="reset">Reset</button>
     </div>
 
     <div id="scoreBox"></div>
+    <div id="congratsMsg" class ="congrats"></div>
   </form>
 
   <script src="js/script.js"></script>
@@ -67,70 +69,3 @@
 </html>
 
 
-
-
-
-
-
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 3: Quiz</title>
-    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
-</head>
-<body>
-
-
-    <h1>CSS Quiz</h1>
-    1. What CSS property changes the text color? <br>
-
-    <label>
-        <input type = "radio" name = "q1" value="Text-Color"> Text-Color
-    </label>
-
-    <label>
-        <input type = "radio" name = "q1" value="Font-Color"> Font-Color
-    </label>
-
-    <label>
-        <input type = "radio" name = "q1" value="color"> color
-    </label>
-
-    <br>
-
-
-    2. What CSS property changes the text color? <br>
-
-    <label>
-        <input type = "checkbox" id = "q2a" value="Text-Color"> Text-Color
-    </label>
-
-    <label>
-        <input type = "checkbox" id = "q2b" value="Font-Color"> Font-Color
-    </label>
-
-    <label>
-        <input type = "checkbox" id = "q2c" value="color"> color
-    </label>
-
-
-
-    3. What CSS property changes the text color? <br>
-    
-    <div id = "q3Options"></div>
-
-    <br>
-
-
-    <button> Submit Quiz</button>
-
-    <script src = "js/script.js"></script>
-
-    
-</body>
-</html>
-
- -->
