@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hw2-Hangman</title>
+</head>
+<body>
+    <h1>Hangman</h1>
+    <div id="gameBox">
+        <img id="picture">
+
+        <p>Attempts left: <span id="attemptsLeft">0</span></p>
+
+        <div id="wordSlots"></div>
+
+        <label for="playerGuess">Enter a letter:</label>
+        <input id="playerGuess" maxlength="1" placeholder="a">
+
+        <button id="guessBtn" >Guess</button>
+        <button id="resetBtn">New Game</button>
+
+        <p>Wrong letters: <span id="wrongLetters">-</span></p>
+
+        <p id="feedback"></p>
+
+        <p>Wins: <span id="wins">0</span>
+        Losses: <span id="losses">0</span></p>
+
+    </div>
+    <script src ="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: wheat;
+    color:black;
+    line-height:1.4;
+    margin:0;
+}
+
+h1{
+    text-align:center;
+    margin:0 0 12px;
+}
+
+#picture{
+    width: 250px;
+    max-width: 100%;
+    display:block;
+    margin: 0 auto 8px;
+    height: auto;
+}
+
+#wordSlots{
+    display: flex;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    gap:10px;
+}
+
+.slot{
+    text-align: center ;
+    display:inline-block;
+    width: 22px;
+    border-bottom: 2px solid black;
+}
+
+#playerGuess{
+    width: 80px;
+    padding:6px;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+
+#gameBox{
+    max-width: 500px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+#feedback{
+    padding:8px;
+    background:whitesmoke;
+    border-radius:6px;
+}
+.win {
+    color:green;
+}
+
+.lose {
+    color:red;
+}
