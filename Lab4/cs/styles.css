@@ -1,0 +1,38 @@
+body{
+    font-family:cursive;
+    background-color:lightblue;
+    margin:0;
+    padding:20px;
+    text-align: center;
+}
+
+h1{
+    color:darkblue;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: royalblue;
+}
+
+#city,#latitude,#longitude{
+    display: inline-block;
+    padding: 2px 6px;
+    background:aliceblue;
+    border-radius: 4px;
+    color:midnightblue;
+}
+
+#username,#pass,#zipFeedback{
+    margin-left: 8px;
+    font-size: small;
+}
+
+.feedback{
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
